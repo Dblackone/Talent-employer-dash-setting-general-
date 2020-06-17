@@ -1,0 +1,30 @@
+
+.general {
+    padding-top: 27px;
+    padding-left: 59px;
+}
+.general-tabs {
+    border: 1px solid rgba(196, 196, 196, 0.5);
+}
+.general hr {
+    border: 1px solid rgba(196, 196, 196, 0.5);
+}
+.btn-save {
+    position: absolute;
+    left: 1139px;
+    padding: 18px 31px;
+
+    background: #084482;
+    border-radius: 5px;
+}
+.tab-texts {
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+}
+.top-texts {
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+color: #084482;
+}
