@@ -1,30 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+body {
+    font-family: Poppins;
+    font-style: normal;
+}
 .general {
     padding-top: 27px;
     padding-left: 59px;
 }
-.general-tabs {
-    border: 1px solid rgba(196, 196, 196, 0.5);
+.text-blue {
+    color: #084482;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
 }
-.general hr {
+.text-black {
+    color: #1F2430;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+.tabs hr {
     border: 1px solid rgba(196, 196, 196, 0.5);
+    width: 90%;
+    align-self: start;
+    margin-left: 0;
+}
+.blue-hr {
+    border: 1.5px solid #084482;
+    width: 75px;
+    align-self: start;
+    margin-left: 0;
+}
+.tabs {
+    margin-top: 47px;
+}
+.arrow {
+    align-self: flex-end;
 }
 .btn-save {
     position: absolute;
-    left: 1139px;
-    padding: 18px 31px;
-
-    background: #084482;
-    border-radius: 5px;
+    left: 70%;
+    top: 80%;
 }
-.tab-texts {
+.btn-text {
     font-family: Poppins;
-font-style: normal;
-font-weight: 600;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
 }
-.top-texts {
-    font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-color: #084482;
+.btn {
+    background: #084482 !important;
+    border-radius: 5px !important;
 }
