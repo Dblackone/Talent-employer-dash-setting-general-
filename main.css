@@ -4,9 +4,87 @@ body {
     font-family: Poppins;
     font-style: normal;
 }
-.general {
-    padding-top: 27px;
-    padding-left: 59px;
+.settings-container h2 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.settings-container .settings-nav {
+    padding: 0;
+}
+
+.settings-container {
+    background-color: #e5e5e5;
+    height: 100%;
+}
+
+.settings-container .settings-menu.list-group {
+    padding-inline-start: 0px;
+    border: none;
+}
+
+.settings-container .settings-menu .list-group-item {
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-bottom: 1px solid #5c95c5;
+    background-color: transparent;
+}
+
+.settings-container a {
+    color: #333333;
+}
+
+.settings-container .settings-menu .list-group-item.active a {
+    color: #084482;
+}
+
+.settings-container .settings-menu .list-group-item.active {
+    background-color: #ffffff;
+    border-bottom: none;
+}
+
+.settings-container .settings {
+    border: 1px solid #5c95c5;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.general-container {
+    min-height: 790px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: -1px;
+    right: -2px;
+}
+
+span.cog {
+    color: #084482;
+    padding-right: 10px;
+}
+
+span.code {
+    color: #AD019C;
+    padding-right: 10px;
+}
+
+span.Not {
+    color: #FF3D00;
+    padding-right: 10px;
+}
+
+span.contact-us {
+    color: #F2A126;
+    padding-right: 10px;
+}
+
+span.privacy {
+    color: #000000;
+    padding-right: 10px;
+}
+
+span.report {
+    color: #37007D;
+    padding-right: 10px;
 }
 .text-blue {
     color: #084482;
@@ -42,7 +120,7 @@ body {
 }
 .btn-save {
     position: absolute;
-    left: 70%;
+    left: 60%;
     top: 80%;
 }
 .btn-text {
@@ -50,9 +128,27 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    color: white;
+    color: white !important;
 }
 .btn {
     background: #084482 !important;
     border-radius: 5px !important;
+}
+@media (max-width: 425px) {
+    .btn-save {
+        position: absolute;
+        left: 50%;
+        top: 60%;
+    }
+    .btn-text {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        color: white !important;
+    }
+    .btn {
+        background: #084482 !important;
+        border-radius: 5px !important;
+    }
 }

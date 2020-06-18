@@ -2,54 +2,82 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Talent Pool: Employer dashboard</title>
-<!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Employer dashboard; Settings-General</title>
+    <link rel="stylesheet" href="../styles/bootstrap-css/bootstrap.css">
+    <link rel="stylesheet" href="../styles/custom-css/main.css">
+    <link rel="stylesheet" href="../styles/custom-css/employer-dash-settings-general.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2823fb7a5a.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
   <!-- Settings General -->
-  <div class="general">
-    <h2 class="text-blue">General</h2>
-    <hr class="blue-hr">
-    <div class="containers tabs">
-      <div class="row">
-        <div class="col-10">
-          <a class="text-black">Profile</a>
-        </div>
-        <div class="col-2"><img src="/img/Vector.png" alt=""></div> 
-      </div>
-        <hr>
-      <div class="row">
-        <div class="col-10">
-          <a class="text-black">Account Preference</a>
-        </div>
-        <div class="col-2"><img src="/img/Vector.png" alt=""></div> 
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col-10">
-          <a class="text-black">Login & Security</a>
-        </div>
-        <div class="col-2"><img src="/img/Vector.png" alt=""></div> 
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col-10">
-          <a class="text-black">Accessibility</a>
-        </div>
-        <div class="col-2"><img src="/img/Vector.png" alt=""></div> 
-      </div>
-      <hr>
+  <div class="settings-container h-100 p-4">
+    <div class="title ml-3">
+        <h2>Settings</h2>
     </div>
-    
-  </div>
+    <div class="settings row mx-3">
+        <div class="settings-nav col-md-3 col-sm-4">
+            <ul class="settings-menu list-group">
+                <li class="list-group-item active">
+                  <a href="#">
+                    <span class="cog"></span><i class="fa fa-cog"></i>
+                    <span class="">General</span></a>
+                </li>
 
-<!-- Button to save -->
-  <div>
-    <button class="btn btn-text btn-save btn-lg">Save Changes</button>
-  </div>
+                <li class="list-group-item"><a href="#"><span class="code"><i class="fa fa-file-code-o"></i></span>Appearance</a></li>
+                <li class="list-group-item"><a href="#"><span class="Not"><i class="fa fa-bell"></i></span>Notification</a></li>
+                <li class="list-group-item"><a href="#"><span class="contact-us"><i class="fa fa-phone"></i></span>Contact Us</a></li>
+                <li class="list-group-item"><a href="#"><span class="privacy"><i class="fa fa-user-secret"></i></span>My Privacy</a></li>
+                <li class="list-group-item"><a href="#"><span class="report"> <i class="fa fa-flag"></i></span>Report Abuse</a></li>
+            </ul>
+        </div>
 
+        <!--General-->
+        <div class="general-container px-5 py-2 col-md-9 col-sm-8">
+            <div class="general">
+                <h4><span class="text-blue">General</span></h4>
+            </div>
+
+            <!--body-->
+            <div class="containers tabs">
+              <div class="row">
+                <div class="col-10">
+                  <a class="text-black">Profile</a>
+                </div>
+                <div class="col-2"><i class="fas fa-chevron-right"></i></div> 
+              </div>
+                <hr>
+              <div class="row">
+                <div class="col-10">
+                  <a class="text-black">Account Preference</a>
+                </div>
+                <div class="col-2"><i class="fas fa-chevron-right"></i></div> 
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-10">
+                  <a class="text-black">Login & Security</a>
+                </div>
+                <div class="col-2"><i class="fas fa-chevron-right"></i></div> 
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-10">
+                  <a class="text-black">Accessibility</a>
+                </div>
+                <div class="col-2"><i class="fas fa-chevron-right"></i></div> 
+              </div>
+              <hr>
+            </div>  
+            
+          <!-- Button to save -->
+            <div>
+              <button class="btn btn-text btn-save">Save Changes</button>
+            </div>
+        </div>
+    </div>
+</div>
   <!-- Scripts -->
 
   <script src="../js/bootstrap-js/popper.js"></script>
